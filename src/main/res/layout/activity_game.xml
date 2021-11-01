@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/background">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="32dp" tools:ignore="MissingConstraints">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:text="HIGH SCORE"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/high_score"
+                            android:textColor="#FFFFFF"
+                            android:fontFamily="sans-serif-condensed" android:textSize="18sp"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="50dp"
+                            android:layout_height="4dp">
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp" app:srcCompat="@color/colorAccent"
+                                android:id="@+id/line"/>
+                    </LinearLayout>
+                    <TextView
+                            android:text="SCORE"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/score" android:textSize="18sp"
+                            android:textColor="#ffffff"/>
+                </LinearLayout>
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" app:srcCompat="@drawable/monster_locked_4"
+                        android:id="@+id/monster_level_locked_4"
+                        android:layout_weight="1" android:layout_marginLeft="30dp"
+                />
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" app:srcCompat="@drawable/monster_locked_6"
+                        android:id="@+id/monster_level_locked_6" android:layout_weight="1"
+                />
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" app:srcCompat="@drawable/monster_locked_8"
+                        android:id="@+id/monster_level_locked_8" android:layout_weight="1"
+                />
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" app:srcCompat="@drawable/monster_locked_10"
+                        android:id="@+id/monster_level_locked_10" android:layout_weight="1"
+                />
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" app:srcCompat="@drawable/pause_button"
+                        android:id="@+id/pause" android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                />
+
+            </LinearLayout>
+            <android.support.constraint.ConstraintLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/meteoritLayout">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/sparkle_red"
+                        android:id="@+id/sparkleRed"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/sparkle_yellow"
+                        android:id="@+id/sparkleYellow"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/sparkle_blue"
+                        android:id="@+id/sparkleBlue"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_2"
+                        android:id="@+id/meteoritBlue"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_3"
+                        android:id="@+id/meteoritYellow" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_3"
+                        android:id="@+id/meteoritYellow2" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_3"
+                        android:id="@+id/meteoritYellow3" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit6" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="1dp" tools:ignore="MissingConstraints"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit3"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit9"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit8"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit5"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit2"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit7"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit1"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit10"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/meteorit_1"
+                        android:id="@+id/meteorit4"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/monster6"
+                        android:id="@+id/monster"
+                />
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" tools:layout_editor_absoluteY="116dp"
+                        tools:layout_editor_absoluteX="62dp" android:gravity="center" tools:ignore="MissingConstraints"
+                        android:id="@+id/gameOver">
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="250dp"
+                            android:layout_height="300dp"
+                            android:background="@drawable/round_container" android:gravity="center">
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp" app:srcCompat="@drawable/sad"
+                                android:id="@+id/imageView"
+                                android:layout_marginBottom="50dp"/>
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:text="High score: "
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" android:id="@+id/textView"
+                                    android:textSize="24sp"/>
+                            <TextView
+
+                                    android:text="SCORE"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/highScore"
+                                    android:layout_weight="1"
+                                    android:textStyle="bold" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:text="Your score: "
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" android:id="@+id/textViewScore"
+                                    android:textSize="24sp"/>
+                            <TextView
+
+                                    android:text="SCORE"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/yourScore"
+                                    android:layout_weight="1"
+                                    android:textStyle="bold" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <Button
+                                android:text="Restart"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content" android:id="@+id/restartButton"
+                                android:textStyle="bold"
+                                android:textAllCaps="false" android:textSize="18sp"
+                                android:background="@drawable/round_button"
+                                android:clickable="true" android:fontFamily="sans-serif" android:textColor="#ffffff"
+                                android:layout_marginTop="40dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" android:gravity="center" tools:ignore="MissingConstraints"
+                        android:id="@+id/pauseLayout">
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="250dp"
+                            android:layout_height="300dp"
+                            android:background="@drawable/round_container" android:gravity="center">
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp" app:srcCompat="@drawable/waiting"
+                                android:id="@+id/pauseImage"
+                                android:layout_marginBottom="50dp"/>
+
+                        <Button
+                                android:text="Start"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content" android:id="@+id/startButton"
+                                android:textStyle="bold"
+                                android:textAllCaps="false" android:textSize="18sp"
+                                android:background="@drawable/round_button"
+                                android:clickable="true" android:fontFamily="sans-serif" android:textColor="#ffffff"
+                                android:layout_marginTop="40dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
